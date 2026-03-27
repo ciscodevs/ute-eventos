@@ -26,11 +26,10 @@
 		<tag/>
 		<url/>
 	</scm>
-<properties>
-    <java.version>23</java.version>
-    <maven.compiler.source>23</maven.compiler.source>
-    <maven.compiler.target>23</maven.compiler.target>
-</properties>
+	<properties>
+		<!-- Railway usa JDK 17 (LTS). Ajustamos el nivel de compilación para que coincida con el runtime disponible. -->
+		<java.version>17</java.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
